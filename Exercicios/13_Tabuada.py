@@ -10,7 +10,7 @@ Descrição: Faça um algoritmo que calcule a tabuada de um
 #No 'FOR" não precisa de variável
 
 multiplicador = int(input('Digite o número: '))
-for numero in range(11):
+for numero in range(11):    #for = para/ in = no/ range = qntd de itens
     resultado = multiplicador * numero
     print(multiplicador, 'x', numero, '=', resultado)       
     #OU print(f'{multiplicador} x {numero} = {resultado}')      #interpolação     #f(format)
